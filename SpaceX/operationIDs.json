@@ -1,0 +1,10 @@
+{
+  "d2a13e0e6f0c4d0c61eacf4ba33b05d6fae37d9613c67920a9df7c22d03b910a": {
+    "name": "launchesPast",
+    "source": "query launchesPast {\n  launchesPast {\n    __typename\n    mission_name\n    launch_date_local\n    launch_site {\n      __typename\n      site_id\n      site_name\n    }\n    rocket {\n      __typename\n      rocket_name\n      rocket_type\n    }\n    links {\n      __typename\n      flickr_images\n    }\n  }\n}"
+  },
+  "975e9adc34c75a4a4a360503e8dc69f3efadcdba31212ab00223e82f0b2f0d1d": {
+    "name": "launchesUpcoming",
+    "source": "query launchesUpcoming {\n  launchesUpcoming {\n    __typename\n    mission_name\n    launch_date_local\n    launch_site {\n      __typename\n      site_id\n      site_name\n    }\n    rocket {\n      __typename\n      rocket_name\n      rocket_type\n    }\n    links {\n      __typename\n      flickr_images\n    }\n  }\n}"
+  }
+}
